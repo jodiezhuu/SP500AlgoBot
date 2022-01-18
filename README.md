@@ -15,6 +15,7 @@ Sample ticker list:
 Then, we measure the risk of each stock based on alpha, beta, standard deviation, and maximum drawdown. We pair the riskiest stock with its least correlated stock in order to offset the risk, storing the tickers in a tuple list. This is based on the concept of overdiversifying our shares (For more info on diversification, visit: https://www.investopedia.com/terms/d/diversification.asp). 
 
 Sample tuple list: 
+
 ![Screen Shot 2022-01-18 at 12 05 17 AM](https://user-images.githubusercontent.com/82774370/149874146-3ccdd0d9-3f2d-48cb-8dd6-9c6afde7f401.png)
 
 Aftering running through our weight optimization algorithm, you are produced with your original ticker list along with its optimal weightings.
